@@ -10,9 +10,9 @@ import urllib.request
 
 st.set_page_config(page_title="Banqueo Táctico", layout="centered")
 
-SHEET_URL = "https://docs.google.com/spreadsheets/d/1n5iAy132AUpFIh4Jb_j126aMdsmSJlB92sD2Edqxu4A/edit?usp=drivesdk"
+SHEET_URL = "https://docs.google.com/spreadsheets/d/1ux-Xg3BqNpyg-gYtXBAT57t-qoQhJ1ZzOFL5Pa2sQ80/edit?usp=sharing"
 # PEGA AQUÍ TU URL DE APPS SCRIPT (la que termina en /exec)
-WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbxaPyR3Fn2_lretLr5C5QARVHDKrWaSehYDP4r0MkT_jiNL4fSZpDLAx0LX8B32pDnxow/exec"
+WEBHOOK_URL = "https://script.google.com/macros/s/AKfycbyv60En2NvzC-i1l0TqfY8SGxh7tBN-eSE6sIV2xC1nkrlognFxE7re3cCkOKl6zG_rDg/exec"
 ARCHIVO_LOCAL = "progreso_banqueo.json"
 
 # --- 1. MOTOR DE DATOS Y HASHING ---
